@@ -10,7 +10,7 @@ import argparse
 import getpass
 
 parser = argparse.ArgumentParser(description='Flags for Redux tools, video calls, or headless Chrome')
-parser.add_argument('--redux', action="store_const", dest='redux', default=0, const='./resources/Redux-DevTools_v2.17.0.crx')
+parser.add_argument('--redux', action="store_const", dest='redux', default=0, const='/Users/jfleisher/Development/call_automator/resources/Redux-DevTools_v2.17.0.crx')
 parser.add_argument('--video', action="store_const", dest='video', default=0, const="//button[@id='btnVideo070']")
 parser.add_argument('--headless', action="store_const", dest='headless', default=0, const="headless")
 parser.add_argument('--taco', action="store_const", dest="taco", default=0, const='use-file-for-fake-video-capture=./resources/taco.mjpeg')
